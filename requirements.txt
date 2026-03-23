@@ -1,0 +1,40 @@
+torch>=2.6.0
+torchvision>=0.21.0
+torchaudio>=2.6.0
+
+# --- LangChain Ecosystem (LCEL Pipeline) ---
+langchain>=0.3.0
+langchain-community>=0.3.0
+langchain-chroma>=0.1.4
+langchain-ollama>=0.2.0
+
+# --- NLP & Embeddings (BGE-M3 Support) ---
+sentence-transformers>=3.0.0
+transformers>=4.50.0
+tokenizers>=0.21.0
+huggingface_hub>=0.28.0
+datasets>=3.2.0
+
+# --- Data Science & Analysis ---
+numpy>=2.2.0
+pandas>=2.3.0
+matplotlib>=3.10.0
+seaborn>=0.13.2
+scikit-learn>=1.6.0
+
+# --- Experiment Tracking & Evaluation ---
+# Fondamentale per loggare Hit Rate e MRR nel tuo notebook
+mlflow>=2.15.0
+
+# --- Utilities & PDF Processing ---
+# PyMuPDF (fitz) per l'estrazione testo dai paper tecnici
+pymupdf>=1.25.0
+chromadb>=0.6.0
+ollama>=0.5.0
+pyyaml>=6.0.2
+rich>=13.9.0
+python-dotenv>=1.0.1
+
+# --- Dev Tools ---
+ipykernel
+notebook

@@ -1,0 +1,11 @@
+embedding:
+  model_name: "BAAI/bge-m3" # Modello di embedding consigliato per la compatibilità con LLM
+  device: "cuda" # Utilizza GPU se disponibile, altrimenti "cpu"
+
+vector_db:
+  path: "./data/vector_db"
+  collection_name: "sentinel_docs"
+
+llm:
+  model_name: "gpt-oss:20b"
+  temperature: 0.1 # Bassa per evitare allucinazioni
